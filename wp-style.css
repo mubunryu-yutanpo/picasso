@@ -1,0 +1,522 @@
+/*media="screen and (max-width:767px)"*/
+
+body{
+  font-size: 1.6rem;
+}
+i{
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+
+/*ヘッダー部*/
+
+.header-container{
+  margin-bottom:4rem;
+}
+.header-slide-img-box{
+  width: 100%;
+}
+
+/*トップ画像　スライダー*/
+
+#header-slide-ul{
+  height: 300px;
+}
+
+
+.header-logo-txt{
+  color: #75b9db;
+}
+.header-sub-txt{
+  font-size: 1.5rem;
+}
+
+
+/*オススメメニュー*/
+
+.baner-container{
+  margin: 2rem auto;
+}
+.baner-title-txt{
+  font-size: 2.5rem;
+}
+.baner-img-wrap{
+  margin: 3rem 0;
+}
+
+.baner-img-wrap img{
+  border-radius: 4px;
+}
+.baner-img-title{
+  font-size: 1.3rem;
+  padding: 0.5rem;
+}
+.main-info-about-img{
+  max-height: 140px;
+}
+
+
+/*ナビゲーション*/
+
+
+.nav-list-wrap{
+  margin: 6rem auto;
+}
+.nav-list-wrap a{
+  padding: 0.5rem 20%;
+  font-size: 1.7rem;
+}
+.nav-list-wrap a:hover{
+  color: #75b9db;
+}
+.nav-list-wrap a:last-child{
+  padding: 0.5rem 5%;
+}
+.nav-list{
+  width: 50%;
+  height: 35px;
+  line-height: 35px;
+}
+
+.nav-list.border2,.nav-list.border3,.nav-list.border4{
+  border-bottom: none;
+}
+.nav-list.border3,.nav-list.border5{
+  border-right: none;
+}
+
+
+.nav-list-link i{
+  font-size: 2rem;
+}
+.nav-list-link img{
+  width: 20px;
+  height: 20px;
+  margin-right: 0.5rem;
+}
+
+
+/*concept*/
+
+.top-concept-container{
+  margin: 6rem auto 4rem auto;
+}
+.top-concept-title-txt{
+  font-size: 2.5rem;
+}
+.top-concept-img-wrap{
+  margin: 2rem auto;
+}
+.top-concept-img-wrap img{
+  margin: 0.3rem;
+}
+.top-concept-about-txt{
+  font-size: 1.6rem;
+}
+
+
+/*店内紹介*/
+
+
+.top-introduction-container{
+  margin: 6rem auto;
+}
+.top-introduction-title-txt{
+  font-size: 2.5rem;
+}
+.top-introduction-img-wrap{
+  margin: 6rem auto;
+}
+.top-introduction-img-wrap img{
+  margin: 0.3rem;
+}
+
+.top-introduction-about-txt{
+  font-size: 1.6rem;
+}
+
+
+/*　menu　料金表*/
+
+.top-price-container{
+  margin: 6rem auto;
+}
+.top-price-title-txt{
+  font-size: 2.5rem;
+  color: #75b9db;
+}
+.top-price-about-txt{
+  font-size: 1.2rem;
+  margin: 1.5rem 0;
+}
+                      /*menuボタン*/
+.menu-button{
+  width: 100%;
+  padding: 0;
+  background: #f1f0f0;
+}
+.price-content-title{
+  padding: 1.5rem 0;
+  font-size: 1.6rem;
+}
+
+/*offの時*/
+
+.price-content-title-icon{
+  top: 10%;
+}
+
+/*onの時*/
+
+.js-menu-button.on > .price-content-move-icon{
+  top: 10%;
+}
+
+.price-content-sub-box{
+  width: 100%;
+}
+
+.price-subcontent-title{
+  font-size: 1.6rem;
+}
+.price-subcontent-about-txt{
+  margin: 0.3rem 0;
+}
+.price-subcontent-cation-txt{
+  font-size: 1.2rem;
+  color: #7d7c74;
+}
+
+
+/* アクセス */
+
+.top-access-wrap{
+  margin: 6rem auto 0 auto;
+}
+.top-access-title-txt{
+  font-size: 2.5rem;
+}
+.top-access-googlemap-wrap{
+  margin: 4rem auto;
+}
+.access-line-wrap{
+  margin: 4rem auto;
+  text-align: left;
+}
+.qr-img-box{
+  width: 100%;
+  margin: 2rem auto;
+}
+.qr-img{
+  width: 30%;
+  text-align: center;
+}
+
+
+
+/*フッター*/
+
+.footer-container{
+  margin: 2rem auto 0 auto;
+}
+.footer-title-wrap{
+  margin: 4rem auto;
+}
+.footer-title-txt{
+  font-size: 2.5rem;
+}
+.footer-about-wrap p{
+  margin-top: 0.5rem;
+}
+
+.copylight-container{
+  font-size: 1.1rem;
+}
+.address-txt{
+  font-size: 1.5rem;
+}
+
+
+
+/*シャイニングカラー　ページ*/
+
+.color-title-txt{
+  font-size: 2.5rem;
+  margin: 3rem auto;
+}
+.color-title-about-txt{
+  text-align: left;
+}
+.color-list-container{
+  margin: 4rem auto;
+}
+.color-list-about-ul{
+  margin: 3rem 0;
+}
+.color-list-about-ul li{
+  font-size: 1.6rem;
+  display: inline-block;
+  border-bottom: 1px solid #f1835a;
+}
+.color-list-about-ul li::before{
+  content: "";
+  height: 8px;
+  width: 8px;
+}
+.color-list-about-txt{
+  text-align: left;
+}
+
+.color-img-container{
+  margin: 2rem auto;
+}
+.color-img-title-wrap{
+  margin-top: 6rem;
+}
+.color-img-title-txt{
+  font-size: 2.5rem;
+  margin: 2rem auto;
+}
+.shining-color-img-wrap{
+  overflow-x: scroll;
+  display: flex;
+  width: 100vw;
+}
+.shining-color-img{
+  width: 40%;
+  max-height: 300px;
+  margin: 0 0.2rem 0 0.1rem;
+}
+
+
+
+/* 強髪ページ */
+
+.strong-worries-txt{
+  padding: 10px;
+  width: 60vw;
+  height: 80px;
+  line-height: 80px;
+}
+.strong-worries-txt:before{
+  width: 20px;
+  height: 20px;
+  right: 21%;
+}
+.strong-worries-txt:after{
+  width: 10px;
+  height: 10px;
+  right: 18%;
+}
+.strong-worries-img{
+  width: 18vw;
+  height: auto;
+}
+
+
+.strong-about-container{
+  margin: 4rem 0;
+}
+.strong-title-txt{
+  font-size: 2.5rem;
+}
+.strong-title-about-txt{
+  text-align: left;
+  width: 95%;
+}
+.txt-deco{
+  border-bottom: 1px solid #f1835a;
+}
+.strong-about-img{
+  max-height: 400px;
+  width: 100%;
+}
+.strong-about-txt{
+  margin: 3rem auto;
+}
+
+/* 売れ筋商品 */
+
+.goods-title-txt{
+  font-size: 2.5rem;
+  margin: 3rem auto;
+}
+.goods-img-wrap{
+  margin: 2rem 0;
+}
+.goods-about-title-txt{
+  font-size: 2rem;
+  margin: 1rem 0 3rem 0;
+}
+.goods-point-title{
+  font-size: 1.8rem;
+}
+.goods-point-list i{
+  font-size: 2rem;
+}
+
+
+/*スクロールヒント*/
+
+@keyframes scroll-hint-appear {
+  0% {
+    transform: translateX(40px);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  50%,
+  100% {
+    transform: translateX(-40px);
+    opacity: 0;
+  }
+}
+
+.scroll-hint.is-right-scrollable {
+  background: linear-gradient(270deg, rgba(0, 0, 0, .15) 0, rgba(0, 0, 0, 0) 16px, rgba(0, 0, 0, 0));
+}
+
+.scroll-hint.is-right-scrollable.is-left-scrollable {
+  background: linear-gradient(90deg, rgba(0, 0, 0, .15) 0, rgba(0, 0, 0, 0) 16px, rgba(0, 0, 0, 0)), linear-gradient(270deg, rgba(0, 0, 0, .15) 0, rgba(0, 0, 0, 0) 16px, rgba(0, 0, 0, 0));
+}
+
+.scroll-hint.is-left-scrollable {
+  background: linear-gradient(90deg, rgba(0, 0, 0, .15) 0, rgba(0, 0, 0, 0) 16px, rgba(0, 0, 0, 0));
+}
+
+.scroll-hint-icon {
+  position: absolute;
+  top: calc(50% - 25px);
+  left: calc(50% - 60px);
+  box-sizing: border-box;
+  width: 120px;
+  height: 80px;
+  border-radius: 5px;
+  transition: opacity .3s;
+  opacity: 0;
+  background: rgba(0, 0, 0, .7);
+  text-align: center;
+  padding: 20px 10px 10px 10px;
+}
+
+.scroll-hint-icon-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+  pointer-events: none;
+}
+
+.scroll-hint-text {
+  font-size: 10px;
+  color: #FFF;
+  margin-top: 5px;
+}
+
+.scroll-hint-icon-wrap.is-active .scroll-hint-icon {
+  opacity: .8;
+}
+
+.scroll-hint-icon:before {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  color: #FFF;
+  vertical-align: middle;
+  text-align: center;
+  content: "";
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNS43NyIgaGVpZ2h0PSIzMC41MiIgdmlld0JveD0iMCAwIDI1Ljc3IDMwLjUyIj48dGl0bGU+44Ki44K744OD44OIIDM8L3RpdGxlPjxnIGlkPSLjg6zjgqTjg6Tjg7xfMiIgZGF0YS1uYW1lPSLjg6zjgqTjg6Tjg7wgMiI+PGcgaWQ9IuODrOOCpOODpOODvF8xLTIiIGRhdGEtbmFtZT0i44Os44Kk44Ok44O8IDEiPjxwYXRoIGQ9Ik0yMS4zMywzMC41Mkg3Ljg1QTEuNTUsMS41NSwwLDAsMSw2LjMsMjlhMTIuNDYsMTIuNDYsMCwwLDAtLjYzLTQuNDIsMjUuMTYsMjUuMTYsMCwwLDAtNC4yNS01bC0uMDYtLjA2QTUsNSwwLDAsMSwwLDE1Ljg2YTMuNjQsMy42NCwwLDAsMSwxLjE3LTIuNjIsMy42MywzLjYzLDAsMCwxLDUuMTQuMDdWMy43N2EzLjc3LDMuNzcsMCwxLDEsNy41NCwwVjguMzNhMy4zNSwzLjM1LDAsMCwxLDEuMjYsMCwzLDMsMCwwLDEsMiwxLjIyLDMuNSwzLjUsMCwwLDEsMi0uMDYsMy4yMSwzLjIxLDAsMCwxLDIsMS41NCwzLjc0LDMuNzQsMCwwLDEsMywuNDdBNC4yMSw0LjIxLDAsMCwxLDI1Ljc0LDE1YzAsLjExLDAsLjI3LDAsLjQ2YTE5LjI2LDE5LjI2LDAsMCwxLS44NCw3Yy0uMTQuMzgtLjM2LjgxLS41NiwxLjIybC0uMTEuMjJjMCwuMDctLjA5LjE0LS4xNC4yMWE3LjEzLDcuMTMsMCwwLDAtMS4xNywyLjE3Yy0uMDYuNTYtLjA2LDIuMTUtLjA1LDIuNzFBMS41NSwxLjU1LDAsMCwxLDIxLjMzLDMwLjUyWk04LjYxLDI4LjIxaDEyYzAtLjcxLDAtMS43MS4wNy0yLjIzYTguNzQsOC43NCwwLDAsMSwxLjU5LTMuMjVsLjA2LS4xMmExMCwxMCwwLDAsMCwuNDYtMSwxNi44LDE2LjgsMCwwLDAsLjctNi4xMmMwLS4yMywwLS40MSwwLS41NGgwYTIsMiwwLDAsMC0uNjQtMS41MiwxLjMzLDEuMzMsMCwwLDAtMS41NS4wOCwxLjEzLDEuMTMsMCwwLDEtMS4xOC4yOCwxLjE1LDEuMTUsMCwwLDEtLjc4LS45NCwxLjI2LDEuMjYsMCwwLDAtLjc1LTEuMTEsMSwxLDAsMCwwLTEuMTEuMjhsLS4xLjFhMS4xNSwxLjE1LDAsMCwxLTEuMTkuMjksMS4xNiwxLjE2LDAsMCwxLS43OC0uOTVjLS4wOS0uNjgtLjIxLS43Ny0uNy0uODdhLjgyLjgyLDAsMCwwLTEsLjQ4LDEuMTYsMS4xNiwwLDAsMS0yLjE2LS41OFYzLjc3YTEuNDYsMS40NiwwLDEsMC0yLjkyLDB2Ny44NWwwLDQuMzNhMS4xNywxLjE3LDAsMCwxLS44MywxLjExLDEuMTUsMS4xNSwwLDAsMS0xLjItLjM1bC0xLS45MWMtLjQ3LS40Mi0uNzMtLjY2LS44NC0uNzdhMS4zNSwxLjM1LDAsMCwwLTItLjEyTDIuNywxNWExLjMyLDEuMzIsMCwwLDAtLjM5LDFBMi41NywyLjU3LDAsMCwwLDMsMTcuODVsMCwwYTI3LjI0LDI3LjI0LDAsMCwxLDQuNyw1LjYyQTEyLjYzLDEyLjYzLDAsMCwxLDguNjEsMjguMjFaTTIzLjIsMjMuMzVaTTYuNTEsMTYuNTlaIiBmaWxsPSIjZmZmIi8+PC9nPjwvZz48L3N2Zz4=);
+}
+
+.scroll-hint-icon:after {
+  content: "";
+  width: 34px;
+  height: 14px;
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  margin-left: -20px;
+  background-repeat: no-repeat;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMy4yOSIgaGVpZ2h0PSIxMi4wMiIgdmlld0JveD0iMCAwIDMzLjI5IDEyLjAyIj48dGl0bGU+44Ki44K744OD44OIIDE8L3RpdGxlPjxnIGlkPSLjg6zjgqTjg6Tjg7xfMiIgZGF0YS1uYW1lPSLjg6zjgqTjg6Tjg7wgMiI+PGcgaWQ9IuODrOOCpOODpOODvF8xLTIiIGRhdGEtbmFtZT0i44Os44Kk44Ok44O8IDEiPjxsaW5lIHgxPSIxLjg1IiB5MT0iNi4wMSIgeDI9IjEwLjQiIHkyPSI2LjAxIiBmaWxsPSIjZmZmIi8+PHBhdGggZD0iTTEwLjQsNy4xN0gxLjg1YTEuMTYsMS4xNiwwLDEsMSwwLTIuMzFIMTAuNGExLjE2LDEuMTYsMCwxLDEsMCwyLjMxWiIgZmlsbD0iI2ZmZiIvPjxwYXRoIGQ9Ik03LjQsMTJhMS4xNSwxLjE1LDAsMCwxLS43Mi0uMjVsLTYuMjUtNUExLjIsMS4yLDAsMCwxLDAsNS44NywxLjE0LDEuMTQsMCwwLDEsLjQ2LDVMNi43LjIzQTEuMTYsMS4xNiwwLDAsMSw4LjEsMi4wOEwzLDUuOTEsOC4xMiwxMEExLjE2LDEuMTYsMCwwLDEsNy40LDEyWiIgZmlsbD0iI2ZmZiIvPjxsaW5lIHgxPSIzMS40NSIgeTE9IjYuMDEiIHgyPSIyMi44OSIgeTI9IjYuMDEiIGZpbGw9IiNmZmYiLz48cGF0aCBkPSJNMzEuNDUsNy4xN0gyMi44OWExLjE2LDEuMTYsMCwxLDEsMC0yLjMxaDguNTZhMS4xNiwxLjE2LDAsMCwxLDAsMi4zMVoiIGZpbGw9IiNmZmYiLz48cGF0aCBkPSJNMjUuOSwxMmExLjE4LDEuMTgsMCwwLDEtLjkxLS40M0ExLjE3LDEuMTcsMCwwLDEsMjUuMTcsMTBsNS4wOS00LjA1TDI1LjIsMi4wOEExLjE2LDEuMTYsMCwwLDEsMjYuNTkuMjNMMzIuODQsNWExLjE2LDEuMTYsMCwwLDEsLjQ1LjkxLDEuMTQsMS4xNCwwLDAsMS0uNDMuOTJsLTYuMjQsNUExLjE3LDEuMTcsMCwwLDEsMjUuOSwxMloiIGZpbGw9IiNmZmYiLz48L2c+PC9nPjwvc3ZnPg==);
+  opacity: 0;
+  transition-delay: 2.4s;
+}
+
+.scroll-hint-icon-wrap.is-active .scroll-hint-icon:after {
+  opacity: 1;
+}
+
+.scroll-hint-icon-wrap.is-active .scroll-hint-icon:before {
+  animation: scroll-hint-appear 1.2s linear;
+  animation-iteration-count: 2;
+}
+
+.scroll-hint-icon-white {
+  background-color: #FFF;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, .4);
+}
+
+.scroll-hint-icon-white:before {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNS43NyIgaGVpZ2h0PSIzMC41MiIgdmlld0JveD0iMCAwIDI1Ljc3IDMwLjUyIj48dGl0bGU+44Ki44K744OD44OIIDQ8L3RpdGxlPjxnIGlkPSLjg6zjgqTjg6Tjg7xfMiIgZGF0YS1uYW1lPSLjg6zjgqTjg6Tjg7wgMiI+PGcgaWQ9IuODrOOCpOODpOODvF8xLTIiIGRhdGEtbmFtZT0i44Os44Kk44Ok44O8IDEiPjxwYXRoIGQ9Ik0yMS4zMywzMC41Mkg3Ljg1QTEuNTUsMS41NSwwLDAsMSw2LjMsMjlhMTIuNDYsMTIuNDYsMCwwLDAtLjYzLTQuNDIsMjUuMTYsMjUuMTYsMCwwLDAtNC4yNS01bC0uMDYtLjA2QTUsNSwwLDAsMSwwLDE1Ljg2YTMuNjQsMy42NCwwLDAsMSwxLjE3LTIuNjIsMy42MywzLjYzLDAsMCwxLDUuMTQuMDdWMy43N2EzLjc3LDMuNzcsMCwxLDEsNy41NCwwVjguMzNhMy4zNSwzLjM1LDAsMCwxLDEuMjYsMCwzLDMsMCwwLDEsMiwxLjIyLDMuNSwzLjUsMCwwLDEsMi0uMDYsMy4yMSwzLjIxLDAsMCwxLDIsMS41NCwzLjc0LDMuNzQsMCwwLDEsMywuNDdBNC4yMSw0LjIxLDAsMCwxLDI1Ljc0LDE1YzAsLjExLDAsLjI3LDAsLjQ2YTE5LjI2LDE5LjI2LDAsMCwxLS44NCw3Yy0uMTQuMzgtLjM2LjgxLS41NiwxLjIybC0uMTEuMjJjMCwuMDctLjA5LjE0LS4xNC4yMWE3LjEzLDcuMTMsMCwwLDAtMS4xNywyLjE3Yy0uMDYuNTYtLjA2LDIuMTUtLjA1LDIuNzFBMS41NSwxLjU1LDAsMCwxLDIxLjMzLDMwLjUyWk04LjYxLDI4LjIxaDEyYzAtLjcxLDAtMS43MS4wNy0yLjIzYTguNzQsOC43NCwwLDAsMSwxLjU5LTMuMjVsLjA2LS4xMmExMCwxMCwwLDAsMCwuNDYtMSwxNi44LDE2LjgsMCwwLDAsLjctNi4xMmMwLS4yMywwLS40MSwwLS41NGgwYTIsMiwwLDAsMC0uNjQtMS41MiwxLjMzLDEuMzMsMCwwLDAtMS41NS4wOCwxLjEzLDEuMTMsMCwwLDEtMS4xOC4yOCwxLjE1LDEuMTUsMCwwLDEtLjc4LS45NCwxLjI2LDEuMjYsMCwwLDAtLjc1LTEuMTEsMSwxLDAsMCwwLTEuMTEuMjhsLS4xLjFhMS4xNSwxLjE1LDAsMCwxLTEuMTkuMjksMS4xNiwxLjE2LDAsMCwxLS43OC0uOTVjLS4wOS0uNjgtLjIxLS43Ny0uNy0uODdhLjgyLjgyLDAsMCwwLTEsLjQ4LDEuMTYsMS4xNiwwLDAsMS0yLjE2LS41OFYzLjc3YTEuNDYsMS40NiwwLDEsMC0yLjkyLDB2Ny44NWwwLDQuMzNhMS4xNywxLjE3LDAsMCwxLS44MywxLjExLDEuMTUsMS4xNSwwLDAsMS0xLjItLjM1bC0xLS45MWMtLjQ3LS40Mi0uNzMtLjY2LS44NC0uNzdhMS4zNSwxLjM1LDAsMCwwLTItLjEyTDIuNywxNWExLjMyLDEuMzIsMCwwLDAtLjM5LDFBMi41NywyLjU3LDAsMCwwLDMsMTcuODVsMCwwYTI3LjI0LDI3LjI0LDAsMCwxLDQuNyw1LjYyQTEyLjYzLDEyLjYzLDAsMCwxLDguNjEsMjguMjFaTTIzLjIsMjMuMzVaTTYuNTEsMTYuNTlaIi8+PC9nPjwvZz48L3N2Zz4=);
+}
+
+.scroll-hint-icon-white:after {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMy4yOSIgaGVpZ2h0PSIxMi4wMiIgdmlld0JveD0iMCAwIDMzLjI5IDEyLjAyIj48dGl0bGU+44Ki44K744OD44OIIDI8L3RpdGxlPjxnIGlkPSLjg6zjgqTjg6Tjg7xfMiIgZGF0YS1uYW1lPSLjg6zjgqTjg6Tjg7wgMiI+PGcgaWQ9IuODrOOCpOODpOODvF8xLTIiIGRhdGEtbmFtZT0i44Os44Kk44Ok44O8IDEiPjxsaW5lIHgxPSIxLjg1IiB5MT0iNi4wMSIgeDI9IjEwLjQiIHkyPSI2LjAxIi8+PHBhdGggZD0iTTEwLjQsNy4xN0gxLjg1YTEuMTYsMS4xNiwwLDEsMSwwLTIuMzFIMTAuNGExLjE2LDEuMTYsMCwxLDEsMCwyLjMxWiIvPjxwYXRoIGQ9Ik03LjQsMTJhMS4xNSwxLjE1LDAsMCwxLS43Mi0uMjVsLTYuMjUtNUExLjIsMS4yLDAsMCwxLDAsNS44NywxLjE0LDEuMTQsMCwwLDEsLjQ2LDVMNi43LjIzQTEuMTYsMS4xNiwwLDAsMSw4LjEsMi4wOEwzLDUuOTEsOC4xMiwxMEExLjE2LDEuMTYsMCwwLDEsNy40LDEyWiIvPjxsaW5lIHgxPSIzMS40NSIgeTE9IjYuMDEiIHgyPSIyMi44OSIgeTI9IjYuMDEiLz48cGF0aCBkPSJNMzEuNDUsNy4xN0gyMi44OWExLjE2LDEuMTYsMCwxLDEsMC0yLjMxaDguNTZhMS4xNiwxLjE2LDAsMCwxLDAsMi4zMVoiLz48cGF0aCBkPSJNMjUuOSwxMmExLjE4LDEuMTgsMCwwLDEtLjkxLS40M0ExLjE3LDEuMTcsMCwwLDEsMjUuMTcsMTBsNS4wOS00LjA1TDI1LjIsMi4wOEExLjE2LDEuMTYsMCwwLDEsMjYuNTkuMjNMMzIuODQsNWExLjE2LDEuMTYsMCwwLDEsLjQ1LjkxLDEuMTQsMS4xNCwwLDAsMS0uNDMuOTJsLTYuMjQsNUExLjE3LDEuMTcsMCwwLDEsMjUuOSwxMloiLz48L2c+PC9nPjwvc3ZnPg==);
+}
+
+.scroll-hint-icon-white .scroll-hint-text {
+  color: #000;
+}
+
+
+
+/*==============================
+ブログページ用
+===============================*/
+#blog{
+  width: 980px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.article-title{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.pagenation{
+  margin: 30px 0;
+}
+.wp-block-group__inner-container h2{
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+/*==============================
+SP用
+===============================*/
+@media screen and (max-width: 767px){
+  #blog{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+  .article-title{
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .pagenation{
+    margin: 30px 0;
+  }
+  .wp-block-group__inner-container h2{
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+}
