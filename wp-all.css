@@ -830,6 +830,7 @@ h1,h2,h3,h4,h5,p,a,li,ul{
   }
   .top-concept-about-txt{
     font-size: 1.6rem;
+    text-align: left;
   }
   
   
@@ -848,7 +849,9 @@ h1,h2,h3,h4,h5,p,a,li,ul{
   .top-introduction-img-wrap img{
     margin: 0.3rem;
   }
-  
+  .top-introduction-about-wrap p{
+    text-align: left;
+  }
   .top-introduction-about-txt{
     font-size: 1.6rem;
   }
@@ -925,6 +928,7 @@ h1,h2,h3,h4,h5,p,a,li,ul{
   }
   .access-line-txt{
     width: 100%;
+    text-align: left;
   }
   .qr-img-box{
     width: 100%;
@@ -979,27 +983,32 @@ h1,h2,h3,h4,h5,p,a,li,ul{
     margin: 4rem auto;
   }
   .color-list-about-ul{
-    margin: 3rem 0;
+    margin: 3rem 0 3rem 1rem;
+    width: 100%;
   }
   .color-list-about-ul li{
     font-size: 1.6rem;
     display: inline-block;
-    border-bottom: 1px solid #f1835a;
+    margin: 1rem 0 0 0 ;
   }
   .color-list-about-ul li::before{
     content: "";
     height: 8px;
     width: 8px;
   }
+  .color-list-about-li-text{
+    border-bottom: 1px solid #f1835a;
+  }
   .color-list-about-txt{
     text-align: left;
   }
   
   .color-img-container{
+    overflow: hidden;
     margin: 2rem auto;
   }
   .color-img-title-wrap{
-    margin-top: 6rem;
+    margin-top: 3rem;
   }
   .color-img-title-txt{
     font-size: 2.5rem;
@@ -1047,6 +1056,7 @@ h1,h2,h3,h4,h5,p,a,li,ul{
   }
   .strong-title-txt{
     font-size: 2.5rem;
+    width: 95%;
   }
   .strong-title-about-txt{
     text-align: left;
